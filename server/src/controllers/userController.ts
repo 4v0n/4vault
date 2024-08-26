@@ -16,3 +16,7 @@ export const editUser = expressAsyncHandler(async (req, res) => {
 export const getUser = expressAsyncHandler(async (req, res) => {
 
 });
+
+export const deleteUser = expressAsyncHandler(async (req, res) => {
+
+});

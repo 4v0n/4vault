@@ -48,4 +48,4 @@ mongoose
     console.log("Could not connect to the database:\n", error);
   });
 
-module.exports = app;
+export default app;
