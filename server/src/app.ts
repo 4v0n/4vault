@@ -29,6 +29,9 @@ app.use(bodyParser.urlencoded({ extended: true, limit: "25mb" }));
 
 // routes
 
+import userRoutes from "./routes/userRoutes";
+app.use("/api/users", userRoutes);
+
 app.get("/", (req, res, next) => {
   console.log(req.path, req.method);
   next();
