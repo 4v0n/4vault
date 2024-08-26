@@ -1,0 +1,26 @@
+{
+  "name": "4vault",
+  "version": "1.0.0",
+  "description": "A simple self hosted cloud storage service.",
+  "scripts": {
+    "install": "cd client & npm i & cd ../server & npm i & cd .. & node install-types.js",
+    "intsallTypes": "node install-types.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4v0n/4vault.git"
+  },
+  "keywords": [],
+  "author": "Aron Kumarawatta <navodhk@hotmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "eslint": "^9.9.1",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.2.0"
+  },
+  "dependencies": {
+    "4vault": "file:"
+  }
+}
