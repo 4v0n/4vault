@@ -8,7 +8,8 @@
     "build": "tsc",
     "start": "node dist/app.js",
     "test": "cross-env NODE_ENV=test mocha --require ts-node/register src/test/**/*.test.ts --exit",
-    "test-single": "cross-env NODE_ENV=test mocha --require ts-node/register src/test/**/*.test.ts --exit"
+    "test-single": "cross-env NODE_ENV=test mocha --require ts-node/register src/test/**/*.test.ts --exit",
+    "create-jwt-secret": "node scripts/createJWTSecret.js"
   },
   "keywords": [],
   "author": "",
