@@ -7,6 +7,7 @@ import app from "../app";
 const should = chai.should();
 chai.use(chaiHttp);
 
+
 describe("User tests", () => {
   describe("Model tests", () => {
     it("should create and save a new user", async () => {

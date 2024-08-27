@@ -21,6 +21,7 @@
     "typescript-eslint": "^8.2.0"
   },
   "dependencies": {
-    "4vault": "file:"
+    "4vault": "file:",
+    "mongoose": "^8.5.4"
   }
 }
